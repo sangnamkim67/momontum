@@ -13,13 +13,15 @@ function paintToDoList(text) {
     const button = document.createElement("button");
     const span = document.createElement("span");
     const newId = toDos.length + 1;
-
+    button.style.border = "none";
+    button.style.background = "transparent";
     button.innerText = "❌";
     button.addEventListener("click", deleteToDo);
     span.innerText = " " + text;
     li.appendChild(button);
     li.appendChild(span);
     li.id = newId;
+    li.setAttribute("style", "margin : 10px 0");
     toDoList.appendChild(li);
 
     const toDo = {
@@ -53,6 +55,7 @@ function loadToDos() {
     const loadedToDos = localStorage.getItem(TODO_LS);
 
     if (loadedToDos !== null) {
+        toDoForm.setAttribute("style", "display : block");
         const parsedToDos = JSON.parse(loadedToDos);
         parsedToDos.forEach(function (toDo) {
             paintToDoList(toDo.toDo);

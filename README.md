@@ -32,6 +32,6 @@ Geolocation API와 [https://openweathermap.org](https://openweathermap.org) 에�
 <hr/>
 
 - Javascript 
-	- React
+	- Vanilla JS
 - CSS
 - HTML

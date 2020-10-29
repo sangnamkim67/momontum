@@ -17,7 +17,7 @@ Vanilla JS를 활용하여 만든 Chrome 확장 프로그램 Momentum Clone App
 - Weather & Temperature
 - background
 <br/>
-Geolocation API와 [https://openweathermap.org](https://openweathermap.org) 에서 제공하는 OpenAPI를 이용하여 현재 위치와 온도를 출력할 수 있음
+Geolocation API와 https://openweathermap.org 에서 제공하는 OpenAPI를 이용하여 현재 위치와 온도를 출력할 수 있음
 
 ### 3. 실행 화면
 <hr/>
